@@ -9,7 +9,7 @@ body{
     line-height: 16px;
     letter-spacing: 0.2px;
     border: 1px solid #FFFFFF;
-    filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
+    box-shadow: 0px 4px 31px rgb(0 0 0 / 15%);
     border-radius: 39px;
     color: #FFFFFF;
      
@@ -51,6 +51,18 @@ h1 {
     width: 26rem;
 }
 
+.card-block1:hover  {
+    background: linear-gradient(230.95deg, #CB1AE8 -0.37%, #37BDA6 100%);
+    color: #FFFFFF;
+    
+}
+.card-block1:hover p {
+    color: #FFFFFF;
+}
+.card-block1:hover a {
+    color: #FFFFFF;
+}
+
 .card-body {
     padding: 40px 50px;
 }
@@ -85,10 +97,37 @@ margin: 10px 0;
     margin: 10px 0;
 }
 
+.title-info {
+    font-size: 46px;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
 
+.subtitle-info {
+    padding-top: 46px;
+    font-weight: bold;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #5C5C5C;
+}
 
+.subtitle-info-other {
+    font-size: 18px;
+    letter-spacing: 0.2px;
+    color: #5C5C5C;
+}
+.btn-info {
+    color: #30D7BA;
+    background: #FFFFFF;
+    border: 1px solid #30D7BA;
+    box-shadow: 0px 4px 31px rgb(0 0 0 / 15%);
+}
 
-  
+.btn-info:hover {
+background: #03D6F3;
+border: 1px solid #03D6F3;
+}
+
   .pricing .card {
     text-align: center;
     border: none;
@@ -103,9 +142,17 @@ margin: 10px 0;
   
   .pricing .card-title {
     margin: 0.5rem 0;
-    font-size: 0.9rem;
-    letter-spacing: .1rem;
-    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 0.1px;
+    font-weight: 700;
+    color: #000000;
+  }
+  .pricing .card-desc {
+    padding-bottom: 30px;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.1px;
+    color: #5C5C5C;
   }
   
   .pricing .card-price {
@@ -134,6 +181,7 @@ margin: 10px 0;
     border-radius: 5rem;
     letter-spacing: .1rem;
     font-weight: bold;
+    background-color: #03D6F3;
     padding: 1rem;
     opacity: 0.7;
     transition: all 0.2s;
