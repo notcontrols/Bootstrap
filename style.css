@@ -1,0 +1,148 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn {
+    padding: 18px 46px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    border: 1px solid #FFFFFF;
+    filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
+    border-radius: 39px;
+    color: #FFFFFF;
+     
+}
+.block-1{
+    background: linear-gradient(230.95deg, #CB1AE8 -0.37%, #37BDA6 100%);
+}
+h1 {
+    font-weight: 900;
+}
+
+.subtitle {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #E5E5E5;
+}
+
+.screen {
+    width: 100%;
+}
+
+.headline {
+    font-weight: 500;
+    font-size: 46px;
+    letter-spacing: 0.2px;
+}
+
+.card-block1 {
+    border: 1px solid #DEDEDE;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    width: 26rem;
+}
+
+.card-body {
+    padding: 40px 50px;
+}
+.card-img-top{
+    padding: 20px 4px;
+}
+.card-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 33px;
+    letter-spacing: 0.1px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.card-text {
+font-size: 18px;
+line-height: 27px;
+letter-spacing: 0.2px;
+color: #5C5C5C;
+margin: 0px 10px;
+padding: 10px;
+margin: 10px 0;
+}
+
+.card-link {
+    font-size: 15px;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+    color: #03D6F3;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+
+
+
+  
+  .pricing .card {
+    text-align: center;
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .pricing hr {
+    margin: 1.5rem 0;
+  }
+  
+  .pricing .card-title {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+  }
+  
+  .pricing .card-price {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .pricing .card-price .period {
+    font-size: 0.8rem;
+  }
+  .pricing ul {
+    padding-left: 0;
+  }
+  
+  .pricing ul li {
+    margin-bottom: 1rem;
+    list-style: none;
+  }
+  
+  .pricing .text-muted {
+    opacity: 0.7;
+  }
+  
+  .pricing .btn {
+    font-size: 80%;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    opacity: 0.7;
+    transition: all 0.2s;
+  }
+  
+  /* Hover Effects on Card */
+  
+  @media (min-width: 992px) {
+    .pricing .card:hover {
+      margin-top: -.25rem;
+      margin-bottom: .25rem;
+      box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    }
+    .pricing .card:hover .btn {
+      opacity: 1;
+    }
+  }
