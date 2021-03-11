@@ -185,11 +185,15 @@ h1 {
   transition: all 0.2s;
 }
 
+.card-col {
+  width: auto;
+}
+
 .subscribe {
     margin: 115px 0 113px 0;
 }
 
-.subscribe-title {
+.bottom-title {
 font-weight: 500;
 font-size: 46px;
 line-height: 57px;
@@ -198,7 +202,7 @@ color: #000000;
 
 }
 
-.subscribe-subtitle {
+.bottom-subtitle {
 font-weight: normal;
 font-size: 18px;
 line-height: 27px;
@@ -242,6 +246,7 @@ margin-bottom: 8px;
  }
  .footer__map{
  border-radius: 22px;
+ width: 100%;
 }
 
 address{
@@ -257,5 +262,12 @@ address{
   }
   .pricing .card:hover .btn {
     opacity: 1;
+  }
+}
+
+@media (max-width: 767px){
+  .footer__map{
+    margin: 87px 0;
+    width: auto;
   }
 }
